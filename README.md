@@ -1,37 +1,81 @@
 # Power_BI_Call_Centre_Dashboard 
-[report_1.pdf](https://github.com/Monikasharma2022/Power_BI_Call_Centre_Dashboard/files/13800819/report_1.pdf)
 
-This Power BI dashboard provides comprehensive insights into call center data, focusing on key metrics and visualizations. It consists of two main dashboards - the Home Page and the Grid Page. The navigation buttons embedded within the Power BI dashboard make it user-friendly and intuitive.
 
-## Dashboards:
-1. Home Page:
-Overview: A snapshot of essential KPIs and trends.
-Navigation: Click on the navigation button to access detailed information on the Grid Page.
-2. Grid Page:
-Detailed View: In-depth analysis of call center data with a focus on individual records.
-Navigation: Use the back button to return to the Home Page for a holistic view.
+## Overview:
+Welcome to the Call Center Insights Power BI Dashboard, designed to provide a comprehensive analysis of call center data. This dashboard is divided into two main pages: Home and Grid. The Home page offers a snapshot of key metrics, while the Grid page allows for detailed exploration.
 
 ## Data Columns:
 The Power BI dashboard utilizes a dataset with the following columns:
 
-Id
-Call Timestamp
-Call-Centers City
-Channel
-City
-Customer Name
-Reason
-Response Time
-Sentiment
-State
-Call Duration In Minutes
-Csat Score
+Id, 
+ Call Timestamp,
+ Call-Centers City,
+ Channel,
+ City,
+ Customer Name,
+ Reason,
+ Response Time,
+ Sentiment,
+ State,
+ Call Duration In Minutes and
+ Csat Score
 
 ## sample data: 
 <img width="894" alt="Screenshot 2023-12-31 155959" src="https://github.com/Monikasharma2022/Power_BI_Call_Centre_Dashboard/assets/104423607/f2674420-935b-465f-99bf-21db974b2eff">
 
-## Insights:
-Billing questions and response times are highlighted.
-Sentiment analysis provides an overview of customer satisfaction.
-State-wise distribution and call duration insights are available.
-Feel free to explore and interact with the Power BI dashboard to gain valuable insights into the call center data
+
+
+## Home Page:
+### Key Metrics:
+Total Calls: The overall count of calls received.
+Total Call Duration: Sum of call durations in both minutes and hours.
+Average Call Duration: The average duration of calls.
+Response Satisfaction Rates: Percentage of positive responses from customers.
+Charts for Calls Distribution:
+Bar Chart - Calls Distribution by Day:
+
+<img width="602" alt="Screenshot 2023-12-31 161502" src="https://github.com/Monikasharma2022/Power_BI_Call_Centre_Dashboard/assets/104423607/dca36248-45a6-4532-8f7b-f77a5dd9f852">
+
+
+Visualizes the distribution of calls over different days.
+Pie Chart - Calls Distribution by Call Centers:
+
+Highlights the contribution of each call center.
+Tree Map - Calls by Reason:
+
+Displays the distribution of calls based on different reasons.
+Donut Chart - Calls by Channels:
+
+Illustrates the distribution of calls across different channels.
+Bar Chart - Calls by State:
+
+Presents the distribution of calls across different states.
+Bar Chart - Total Calls by Sentiment:
+
+Depicts the sentiment distribution of all calls.
+Filters and Navigation:
+Date Filter: Allows filtering based on date.
+
+Channel Filter: Enables filtering based on the communication channel.
+
+City Filter: Allows narrowing down results by city.
+
+Menu Bar: Facilitates navigation between the Home and Grid pages.
+
+Grid Page:
+The Grid page incorporates all elements from the Home page along with a detailed table containing major columns, providing a comprehensive view of individual call records.
+
+<img width="618" alt="Screenshot 2023-12-31 161618" src="https://github.com/Monikasharma2022/Power_BI_Call_Centre_Dashboard/assets/104423607/c82ec2fb-610d-487a-8db5-1001fe1c17b4">
+
+
+Instructions:
+Home Page:
+
+Explore key metrics and charts for a high-level overview.
+Use the menu bar for seamless navigation.
+Grid Page:
+
+Dive into detailed insights with the inclusion of the table.
+Utilize filters for customized exploration.
+
+Feel free to interact with the dashboard to uncover meaningful insights into call center operations.
